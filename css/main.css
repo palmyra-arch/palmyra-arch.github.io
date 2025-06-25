@@ -255,13 +255,13 @@ body {
 }
 
 .person-page-name{
-    position:absolute;
+    position:relative;
     font-size:1.5rem;
     font-weight:bold;
 }
 
 .person-page-credentials{
-    position:absolute;
+    position:relative;
     font-size: 0.75rem;
 }
 
