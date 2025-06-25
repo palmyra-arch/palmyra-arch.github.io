@@ -108,7 +108,11 @@ body {
     text-decoration: none;
     color: #333333;
     cursor: pointer;
-}	
+}
+
+.active-item{
+    color:#888;
+}
 
 .paragraph{
     line-height:1.5rem;
@@ -261,9 +265,6 @@ body {
     .submenu-item{
         margin-right:0rem;
         margin-left:0.5rem;
-    }
-    .active-item{
-        color:#888;
     }
     .about-row{
         flex-direction:row;}
