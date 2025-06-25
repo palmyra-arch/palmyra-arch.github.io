@@ -223,14 +223,14 @@ body {
 }
 
 .person-thumb:hover .person-text{
-    opacity:1;
+    color:#888888
 }
 
 .person-text{
     position:relative;
     font-size:1rem;
     text-align:center;
-    opacity:0.9;
+    color:#BBBBBB
 }
 
 .palmyra-head{
