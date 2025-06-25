@@ -249,11 +249,6 @@ body {
     font-size: 0.75rem;
 }
 
-.person-thumb-title{
-    position:relative;
-    font-size: 0.75rem;
-}
-
 .person-page-name{
     position:relative;
     font-size:1.5rem;
@@ -263,11 +258,7 @@ body {
 .person-page-credentials{
     position:relative;
     font-size: 0.75rem;
-}
-
-.person-page-title{
-    position:relative;
-    font-size:0.75rem;
+    margin-bottom: 0.5rem;
 }
 
 .person-page-title{
