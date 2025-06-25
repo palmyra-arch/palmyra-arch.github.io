@@ -215,7 +215,7 @@ body {
 
 .person-thumb{
     position:relative;
-    opacity:0.7;
+    opacity:1;
     margin-bottom:0.5rem;
 }
 
@@ -230,8 +230,7 @@ body {
     position:relative;
     font-size:1rem;
     font-weight:bold;
-    text-align:center;
-    color:#333333
+    margin-top:0.5rem;
 }
 
 .palmyra-head{
