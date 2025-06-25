@@ -225,14 +225,10 @@ body {
 
 .person-thumb a:hover{
     text-decoration:none;
-    color:#888
 }
 
 .person-thumb:hover img{
-    opacity:1;
-}
-
-.person-thumb:hover .person-text{
+    opacity:0.8;
 }
 
 .person-name{
