@@ -68,11 +68,11 @@ body {
 .menu-item {
     margin-left:0.3rem;
     margin-right:0.3rem;
+    color: #BBBBBB;
 }
 
 .menu a {
     text-decoration: none;
-    color: #BBBBBB;
 }
 
 .menu a:hover {
@@ -97,11 +97,11 @@ body {
 .submenu-item{
     margin-left:0.3rem;
     margin-right:0.3rem;
+    color: #BBBBBB;
 }
 
 .submenu a {
     text-decoration: none;
-    color: #BBBBBB;
 }
 
 .submenu a:hover {
@@ -111,7 +111,7 @@ body {
 }
 
 .active-item{
-    color:#888;
+    color:#888888;
 }
 
 .paragraph{
