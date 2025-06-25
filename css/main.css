@@ -226,11 +226,16 @@ body {
 .person-thumb:hover .person-text{
 }
 
-.person-text{
+.person-name{
     position:relative;
     font-size:1rem;
     font-weight:bold;
     margin-top:0.5rem;
+}
+
+.person-credentials{
+    position:relative;
+    font-size: 0.75rem;
 }
 
 .palmyra-head{
