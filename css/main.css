@@ -219,6 +219,15 @@ body {
     margin-bottom:0.5rem;
 }
 
+.person-thumb a{
+    text-decoration:none;
+}
+
+.person-thumb a:hover{
+    text-decoration:none;
+    color:#888
+}
+
 .person-thumb:hover img{
     opacity:1;
 }
