@@ -215,8 +215,7 @@ body {
 
 .person-thumb{
     position:relative;
-    opacity:1;
-    margin-bottom:0.5rem;
+    opacity:0.8;
 }
 
 .person-thumb a{
@@ -225,10 +224,7 @@ body {
 
 .person-thumb a:hover{
     text-decoration:none;
-}
-
-.person-thumb:hover img{
-    opacity:0.8;
+    opacity:1;
 }
 
 .person-name{
