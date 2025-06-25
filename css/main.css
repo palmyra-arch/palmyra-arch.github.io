@@ -215,19 +215,20 @@ body {
 
 .person-thumb{
     position:relative;
+    opacity:0.7
 }
 
 .person-thumb:hover img{
-    opacity:.1;
+    opacity:1;
 }
 
 .person-thumb:hover .person-text{
-    color:#000000
 }
 
 .person-text{
     position:relative;
     font-size:1rem;
+    font-weight:bold;
     text-align:center;
     color:#333333
 }
