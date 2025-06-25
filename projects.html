@@ -1,4 +1,5 @@
 ---
+name: projects
 layout: default
 permalink: projects
 ---
@@ -13,13 +14,13 @@ permalink: projects
                         }; 
                       });
                       var allProjectLinks = Array.from(document.getElementsByClassName('submenu-item'));
-                      allProjectLinks.forEach(projectLink=>{projectLink.style.color="";});
-                      _this.style.color="#888";
+                      allProjectLinks.forEach(projectLink=>{projectLink.classList.remove('active-item');});
+                      _this.classList.add('active-item');
                     }       
                 </script>
                 <div class = "row">
                        <div class="col col-1-1 submenu"> 
-                        <a class="submenu-item" onclick="activateType(this,'project-thumb');" style="color:#888">ALL</a>
+                        <a class="submenu-item" onclick="activateType(this,'project-thumb');">ALL</a>
                         <a class="submenu-item" onclick="activateType(this,'project-commercial');">COMMERCIAL</a>
                         <a class="submenu-item" onclick="activateType(this,'project-cultural');">CULTURAL</a>
                         <a class="submenu-item" onclick="activateType(this,'project-education');">EDUCATION</a>
