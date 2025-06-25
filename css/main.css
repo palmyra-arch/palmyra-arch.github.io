@@ -218,13 +218,16 @@ body {
     opacity:0.8;
 }
 
+.person-thumb:hover{
+    opacity:1;
+}
+
 .person-thumb a{
     text-decoration:none;
 }
 
 .person-thumb a:hover{
     text-decoration:none;
-    opacity:1;
 }
 
 .person-name{
