@@ -213,21 +213,6 @@ body {
     opacity:1;
 }
 
-.person-heading{
-    padding-top:0.25rem;
-    margin-bottom:-0.5rem;
-    line-height:2rem;
-    font-size:2rem;
-    color:#888;
-/*  margin-bottom:-0.5rem;
-    font-size:2rem;
-    line-height:2rem;*/
-}
-
-.person-image{
-    position:relative;
-}
-
 .person-thumb{
     position:relative;
     opacity:0.8;
@@ -249,15 +234,44 @@ body {
     text-decoration:none;
 }
 
-.person-name{
+.person-image{
     position:relative;
-    font-size:1rem;
+}
+
+.person-thumb-name{
+    position:relative;
+    font-size:1.5rem;
     font-weight:bold;
 }
 
-.person-credentials{
+.person-thumb-credentials{
     position:relative;
     font-size: 0.75rem;
+}
+
+.person-thumb-title{
+    position:relative;
+    font-size: 0.75rem;
+}
+
+.person-page-name{
+    position:absolute;
+    font-size:1.5rem;
+    font-weight:bold;
+}
+
+.person-page-credentials{
+    position:absolute;
+    font-size: 0.75rem;
+}
+
+.person-page-title{
+    position:relative;
+    font-size:0.75rem;
+}
+
+.person-page-title{
+
 }
 
 .palmyra-head{
