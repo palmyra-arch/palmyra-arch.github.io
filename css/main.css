@@ -71,13 +71,16 @@ body {
     color: #BBBBBB;
 }
 
+.menu-item:hover {
+    color: #333333;
+}
+
 .menu a {
     text-decoration: none;
 }
 
 .menu a:hover {
     text-decoration: none;
-    color: #333333;
 }
 
 .divider {
@@ -100,13 +103,16 @@ body {
     color: #BBBBBB;
 }
 
+.submenu-item:hover {
+    color: #333333;
+}
+
 .submenu a {
     text-decoration: none;
 }
 
 .submenu a:hover {
     text-decoration: none;
-    color: #333333;
     cursor: pointer;
 }
 
@@ -114,7 +120,7 @@ body {
     color:#888888;
 }
 
-.active-item a:hover {
+.active-item:hover {
     color:#888888;
 }
 
