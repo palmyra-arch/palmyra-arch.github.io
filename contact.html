@@ -4,26 +4,28 @@ layout: about
 permalink: contact 
 ---
 <div class="row">
-<div class="paragraph">
-    Address: 53 W Jackson Blvd, Ste 340, Chicago, IL 60604 <br>
-    We also operate out of Milwaukee, WI, and Thessaloniki, Greece.<br>
-    Phone: +1 872 216 0275<br>
+    <div class="col-1-1">
+        Address: 53 W Jackson Blvd, Ste 340, Chicago, IL 60604 <br>
+        We also operate out of Milwaukee, WI, and Thessaloniki, Greece.<br>
+        Phone: +1 872 216 0275<br>
     </div>
-    <div class="paragraph">
-    Send us a message:
-        <form  action="https://docs.google.com/forms/d/e/1FAIpQLSe0yZu9Hiao58dT3Wfxhe1IcIlJGI0X4eSjzDCb_byCZFnFsw/formResponse?" 
-                        target="hidden_iframe"
-                        onsubmit="document.getElementById('confirmation-field').innerHTML='Thanks for contacting us!';
-                                    document.getElementById('confirmation-field').style.opacity='0';
-                                    setTimeout(()=>{document.getElementById('confirmation-field').innerHTML='';
-                                            document.getElementById('confirmation-field').style.opacity='1';
-                                            document.getElementById('hidden_iframe').src ='about:blank';}, 6000);">
-            <input type="text" id="Input-Name" placeholder="Name" name="entry.693514561"><br>                                  
-            <input type="text" id="Input-Email" placeholder="Email" name="entry.812290342"><br>
-            <textarea id="Input-Body" rows="8" placeholder="Message" name="entry.910591092"></textarea><br>
-            <input type="checkbox" id="Input-Newsletter" name="entry.864201531" value="Sign me up for the newsletter">  Sign me up for the newsletter!<br>
-            <button type="submit" id="Input-Send"> Send </button> <div id="confirmation-field"></div>
-        </form>
-            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="document.getElementById('Input-Name').value = '';document.getElementById('Input-Email').value = '';document.getElementById('Input-Body').value = '';document.getElementById('Input-Newsletter').checked=false;"></iframe>
+</div>
+<div class="row">
+    <div class="col-1-1"
+        Send us a message:
+            <form  action="https://docs.google.com/forms/d/e/1FAIpQLSe0yZu9Hiao58dT3Wfxhe1IcIlJGI0X4eSjzDCb_byCZFnFsw/formResponse?" 
+                            target="hidden_iframe"
+                            onsubmit="document.getElementById('confirmation-field').innerHTML='Thanks for contacting us!';
+                                        document.getElementById('confirmation-field').style.opacity='0';
+                                        setTimeout(()=>{document.getElementById('confirmation-field').innerHTML='';
+                                                document.getElementById('confirmation-field').style.opacity='1';
+                                                document.getElementById('hidden_iframe').src ='about:blank';}, 6000);">
+                <input type="text" id="Input-Name" placeholder="Name" name="entry.693514561"><br>                                  
+                <input type="text" id="Input-Email" placeholder="Email" name="entry.812290342"><br>
+                <textarea id="Input-Body" rows="8" placeholder="Message" name="entry.910591092"></textarea><br>
+                <input type="checkbox" id="Input-Newsletter" name="entry.864201531" value="Sign me up for the newsletter">  Sign me up for the newsletter!<br>
+                <button type="submit" id="Input-Send"> Send </button> <div id="confirmation-field"></div>
+            </form>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="document.getElementById('Input-Name').value = '';document.getElementById('Input-Email').value = '';document.getElementById('Input-Body').value = '';document.getElementById('Input-Newsletter').checked=false;"></iframe>
     </div>
 </div>
