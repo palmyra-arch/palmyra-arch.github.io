@@ -1,0 +1,273 @@
+---
+layout: default
+permalink: projects
+---
+                <script>
+                    function activateType(_this,visibleType){
+                      var allProjects = Array.from(document.getElementsByClassName('project-thumb'));
+                      allProjects.forEach(project=>{
+                        if(project.classList.contains(visibleType)){
+                            project.style.display = "";
+                        }else{
+                            project.style.display = "none";
+                        }; 
+                      });
+                      var allProjectLinks = Array.from(document.getElementsByClassName('submenu-item'));
+                      allProjectLinks.forEach(projectLink=>{projectLink.style.color="";});
+                      _this.style.color="#888";
+                    }       
+                </script>
+                <div class = "row">
+                       <div class="col col-1-1 submenu"> 
+                        <a class="submenu-item" onclick="activateType(this,'project-thumb');" style="color:#888">ALL</a>
+                        <a class="submenu-item" onclick="activateType(this,'project-commercial');">COMMERCIAL</a>
+                        <a class="submenu-item" onclick="activateType(this,'project-cultural');">CULTURAL</a>
+                        <a class="submenu-item" onclick="activateType(this,'project-education');">EDUCATION</a>
+                        <a class="submenu-item" onclick="activateType(this,'project-exhibition');">EXHIBITION</a>
+                        <a class="submenu-item" onclick="activateType(this,'project-healthcare');">HEALTHCARE</a>
+                        <a class="submenu-item" onclick="activateType(this,'project-interiors');">INTERIORS</a>
+                        <a class="submenu-item" onclick="activateType(this,'project-installation');">INSTALLATION</a>
+                    <!--<a class="submenu-item" onclick="activateType(this,'project-institutional');">INSTITUTIONAL</a>-->
+                        <a class="submenu-item" onclick="activateType(this,'project-landscape');">LANDSCAPE</a>
+                    <!--<a class="submenu-item" onclick="activateType(this,'project-masterplan');">MASTERPLAN</a>-->
+                        <a class="submenu-item" onclick="activateType(this,'project-residential');">RESIDENTIAL</a>
+                    <!--<a class="submenu-item" onclick="activateType(this,'project-religious');">RELIGIOUS</a>-->
+                        <a class="submenu-item" onclick="activateType(this,'project-urban');">URBAN</a>
+                        <a class="submenu-item" onclick="activateType(this,'project-writing');">WRITING</a>
+                        <a class="submenu-item" onclick="activateType(this,'project-wip');">WIP</a>                           
+                       </div>
+                </div>
+    <!--        <div class = "row">
+                      <div class="col practice-heading" style="text-align:center; border:1px black;">
+                      Our project "Not All White Walls" has been selected as the 2021 <img src="/images/Architizer-2021-A+Awards/AAwardsLogo.png" alt="Architizer A+ Awards" style="width:18rem; height:1.8rem; display:inline"> <a href="https://winners.architizer.com/2021/Plus/concepts-11/architecture-color-6/"> Popular Choice Winner in the Architecture +Color category </a> and also received an <a href="https://architectureprize.com/winners/2021_hm.php?level=pro"> Architecture MasterPrize Honorable Mention in the Exhibition category </a>!
+                      </div>
+                </div> 
+     -->
+                <div class="row"> 
+
+<!-- copy from here -->
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-cultural project-installation project-landscape project-urban">
+                        <div class = "project-text">BY THE BOOK</div>
+                        <a href="/csdf">
+                        <img src="/projects/csdf/images/csdf_thumbnail.jpg">
+                        </a>
+                    </div>
+<!-- down to here-->
+                    
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-education project-landscape project-institutional project-interiors project-wip">
+                        <div class = "project-text">AFTER HOURS</div>
+                        <a href="/cchs">
+                        <img src="/projects/cchs/images/CCHS_thumbnail-2.jpg">
+                        </a>
+                    </div>
+
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-exhibition project-installation project-cultural project-interiors">
+                        <div class = "project-text">NOT ALL WHITE WALLS</div>
+                        <a href="/cca">
+                        <img src="/projects/cca/images/cca_thumbnail_all-awards.png">
+                        </a>
+                    </div>                    
+
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-healthcare project-interiors project-wip">
+                        <div class = "project-text">FENIX FAMILY HEALTH</div>
+                        <a href="/fenix">
+                        <img src="/projects/fenix/images/Fenix_thumbnail.jpg">
+                        </a>
+                    </div>
+
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-residential project-interiors">
+                        <div class = "project-text">BARRY AVE</div>
+                        <a href="/barry">
+                        <img src="/projects/barry/images/barry-ext-rendering_thumbnail.png">
+                        </a>
+                    </div>
+
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-healthcare project-commercial project-interiors project-wip">
+                        <div class = "project-text">ALGONQUIN WELLNESS CENTER</div>
+                        <a href="/awc">
+                        <img src="/projects/awc/images/AWC_thumbnail.jpg">
+                        </a>
+                    </div>
+
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-residential project-interiors project-wip">
+                        <div class = "project-text">WOODLAWN RESIDENCE</div>
+                        <a href="/woodlawn">
+                        <img src="/projects/woodlawn/images/woodlawn_thumbnail-2.jpg">
+                        </a>
+                    </div>
+
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-cultural project-installation project-landscape project-urban">
+                        <div class = "project-text">URBAN LIVING ROOM</div>
+                        <a href="/concentrico-24">
+                        <img src="/projects/concentrico-24/images/Concentrico_thumbnail.jpg">
+                        </a>
+                    </div>
+                      
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-education project-landscape project-institutional">
+                        <div class = "project-text">FUNCTION FOLLOWS FORM</div>
+                        <a href="/carmel">
+                        <img src="/projects/carmel/images/carmel_thumbnail-1b.png">
+                        </a>
+                    </div>
+
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-institutional project-religious project-wip">
+                        <div class = "project-text">REDEEMER REIMAGINED</div>
+                        <a href="/redeemer">
+                        <img src="/projects/redeemer/images/redeemer_thumbnail.png">
+                        </a>
+                    </div>
+
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-education project-institutional project-interiors">
+                        <div class = "project-text">IN WITH THE OLD, IN WITH THE NEW</div>
+                        <a href="/sij">
+                        <img src="/projects/sij/images/sij_thumbnail.png">
+                        </a>
+                    </div>
+                    
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-interiors project-institutional project-healthcare">
+                        <div class = "project-text">JOSSELYN</div>
+                        <a href="/josselyn">
+                        <img src="/projects/josselyn/images/Diagram_thumbnail.jpg">
+                        </a>
+                    </div>
+
+<!--
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-writing">
+                       <div class = "project-text">CO-WRITING:<br>Beyond Capitalism?</div>
+                        <a href="/22-jae">
+                        <img src="/projects/22-jae/images/22-jae_thumbnail.png">
+                        </a>
+                    </div>
+
+
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-writing">
+                       <div class = "project-text">CO-WRITING:<br>Not As Easy as ABC</div>
+                        <a href="/22-log">
+                        <img src="/projects/22-log/images/22-log_thumbnail.png">
+                        </a>
+                    </div>
+
+                    
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-writing">
+                       <div class = "project-text">BOOK REVIEW:<br>The Stakes of Theory</div>
+                        <a href="/nyra22">
+                        <img src="/projects/nyra22/images/nyra22_thumbnail.png">
+                        </a>
+                    </div>
+                            
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb">
+                        <div class = "project-text">ARCHITECTURE BEYOND CAPITALISM SUMMER SCHOOL</div>
+                        <a href="/abc-school-2021">
+                        <img src="/projects/abc-school-2021/images/non%20animate-01.jpg">
+                        </a>
+                    </div>                    
+-->
+                    
+<!--                <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-residential project-interiors">
+                        <div class = "project-text">DESERT IRIS</div>
+                        <a href="/desert-iris">
+                        <img src="/projects/desert-iris/images/desert-iris.png">
+                        </a>
+                    </div>
+-->
+
+                   <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-cultural project-installation">
+                        <div class = "project-text">FIELD TETRIS</div>
+                        <a href="/tetracube">
+                        <img src="/projects/tetracube/images/tetracube_thumbnail.png">
+                        </a>
+                    </div>            
+
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb">
+                        <div class = "project-text">WORKSHOP:<br>Alternative Frameworks for Architectural Practice</div>
+                        <a href="/acsa109-coop">
+                        <img src="/projects/acsa109-coop/images/ACSA109-coop_thumbnail.png">
+                        </a>
+                    </div>                    
+
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-urban project-landscape">
+                        <div class = "project-text">NEWBURGH GATEWAY BDIGE</div>
+                        <a href="/newburgh-gateway">
+                        <img src="/projects/newburgh-gateway/images/newburgh-gateway_thumbnail.png">
+                        </a>
+                    </div>
+
+<!--
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-writing">
+                       <div class = "project-text">BOOK REVIEW:<br>The Death and Life of Urban Public Space</div>
+                        <a href="/nyra16">
+                        <img src="/projects/nyra16/images/nyra16_thumbnail.png">
+                        </a>
+                    </div>
+-->
+                    
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-residential project-interiors project-wip">
+                        <div class = "project-text">AGING IN PLACE</div>
+                        <a href="/harissi">
+                        <img src="/projects/harissi/images/harissi_thumbnail.png">
+                        </a>
+                    </div> 
+
+               <!--   <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-residential project-interiors">
+                        <div class = "project-text">SANTA BARBARA HOUSE</div>
+                        <a href="/santa-barbara">
+                        <img src="/projects/santa-barbara/images/santa-barbara_thumbnail.png">
+                        </a>
+                    </div> -->
+                  
+              <!--    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-residential project-interiors">
+                        <div class = "project-text">AIGALEO APARTMENT</div>
+                        <a href="/aigaleo">
+                        <img src="/projects/aigaleo/images/aigaleo_thumbnail.png">
+                        </a>
+                    </div> -->
+                  
+                  <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-urban project-landscape">
+                        <div class = "project-text">LOWER ALLSTON LANDING</div>
+                        <a href="/allston">
+                        <img src="/projects/allston/images/allston_thumbnail.png">
+                        </a>
+                    </div>
+  
+                  <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-exhibition">
+                        <div class = "project-text">OLD MYTHS, NEW MYTHOLOGIES</div>
+                        <a href="/brasil">
+                        <img src="/projects/brasil/images/brasil_thumbnail.png">
+                        </a>
+                    </div>
+
+                  <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-writing">
+                        <div class = "project-text">ESSAY: A Building's Building</div>
+                        <a href="/acropolis">
+                        <img src="/projects/acropolis/images/acropolis_thumbnail.png">
+                        </a>
+                    </div>
+
+                  <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-writing">
+                        <div class = "project-text">IN HUMAN</div>
+                        <a href="/in-human">
+                        <img src="/projects/in-human/images/in-human_thumbnail.png">
+                        </a>
+                    </div>
+
+                  <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-urban">
+                        <div class = "project-text">VENICE'S ISLAND</div>
+                        <a> <!--href="/venice"-->
+                        <img src="/projects/venice/images/venice_thumbnail.png">
+                        </a>
+                    </div>
+                  
+                  <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-urban">
+                        <div class = "project-text">URBAN PALIMPSESTS</div>
+                        <a href="/palimpsests">
+                        <img src="/projects/palimpsests/images/palimpsests_thumbnail.png">
+                        </a>
+                    </div>
+
+                  <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-cultural">
+                        <div class = "project-text">THE MORPHOLOGY OF MULTIPLES</div>
+                        <a> <!--href="/istanbul"-->
+                        <img src="/projects/istanbul/images/istanbul_thumbnail.png">
+                        </a>
+                    </div>
+                  </div>
