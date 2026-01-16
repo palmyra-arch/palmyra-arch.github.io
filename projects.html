@@ -14,13 +14,13 @@ permalink: projects
                         }; 
                       });
                       var allProjectLinks = Array.from(document.getElementsByClassName('submenu-item'));
-                      allProjectLinks.forEach(projectLink=>{projectLink.style.color="";});
-                      _this.style.color="#888";
+                      allProjectLinks.forEach(projectLink=>{projectLink.classList.remove('active-item');});
+                      _this.classList.add('active-item');
                     }       
                 </script>
                 <div class = "row">
                        <div class="col col-1-1 submenu"> 
-                        <a class="submenu-item" onclick="activateType(this,'project-thumb');" style="color:#888">ALL</a>
+                        <a class="submenu-item active-item" onclick="activateType(this,'project-thumb');">ALL</a>
                         <a class="submenu-item" onclick="activateType(this,'project-commercial');">COMMERCIAL</a>
                         <a class="submenu-item" onclick="activateType(this,'project-cultural');">CULTURAL</a>
                         <a class="submenu-item" onclick="activateType(this,'project-education');">EDUCATION</a>
@@ -28,11 +28,11 @@ permalink: projects
                         <a class="submenu-item" onclick="activateType(this,'project-healthcare');">HEALTHCARE</a>
                         <a class="submenu-item" onclick="activateType(this,'project-interiors');">INTERIORS</a>
                         <a class="submenu-item" onclick="activateType(this,'project-installation');">INSTALLATION</a>
-                    <!--<a class="submenu-item" onclick="activateType(this,'project-institutional');">INSTITUTIONAL</a>-->
+                        <a class="submenu-item" onclick="activateType(this,'project-institutional');">INSTITUTIONAL</a>
                         <a class="submenu-item" onclick="activateType(this,'project-landscape');">LANDSCAPE</a>
                     <!--<a class="submenu-item" onclick="activateType(this,'project-masterplan');">MASTERPLAN</a>-->
                         <a class="submenu-item" onclick="activateType(this,'project-residential');">RESIDENTIAL</a>
-                    <!--<a class="submenu-item" onclick="activateType(this,'project-religious');">RELIGIOUS</a>-->
+                        <a class="submenu-item" onclick="activateType(this,'project-religious');">RELIGIOUS</a>
                         <a class="submenu-item" onclick="activateType(this,'project-urban');">URBAN</a>
                         <a class="submenu-item" onclick="activateType(this,'project-writing');">WRITING</a>
                         <a class="submenu-item" onclick="activateType(this,'project-wip');">WIP</a>                           
@@ -69,10 +69,10 @@ permalink: projects
                         </a>
                     </div>                    
 
-                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-healthcare project-interiors project-wip">
-                        <div class = "project-text">FENIX FAMILY HEALTH</div>
-                        <a href="/fenix">
-                        <img src="/projects/fenix/images/Fenix_thumbnail.jpg">
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-healthcare project-commercial project-interiors project-wip">
+                        <div class = "project-text">ALGONQUIN WELLNESS CENTER</div>
+                        <a href="/awc">
+                        <img src="/images/wip_notebook.jpg">
                         </a>
                     </div>
 
@@ -83,10 +83,10 @@ permalink: projects
                         </a>
                     </div>
 
-                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-healthcare project-commercial project-interiors project-wip">
-                        <div class = "project-text">ALGONQUIN WELLNESS CENTER</div>
-                        <a href="/awc">
-                        <img src="/projects/awc/images/AWC_thumbnail.jpg">
+                    <div class="col col-1-1 col-sm-1-2 col-md-1-3 col-lg-1-3 project-thumb project-healthcare project-interiors project-wip">
+                        <div class = "project-text">FENIX FAMILY HEALTH</div>
+                        <a href="/fenix">
+                        <img src="/images/wip_notebook.jpg">
                         </a>
                     </div>
 
